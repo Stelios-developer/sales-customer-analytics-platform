@@ -1,0 +1,46 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Sales Analytics Data Flow</title>
+  <desc id="desc">Data flow from CSV upload through cleaning, relational storage, analytics, machine learning, and dashboard visualization.</desc>
+  <rect width="1200" height="360" rx="28" fill="#F8FAFC"/>
+  <rect x="35" y="35" width="1130" height="290" rx="22" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <text x="65" y="82" fill="#0F172A" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700">From Raw Sales CSV to Business Intelligence</text>
+  <text x="65" y="110" fill="#64748B" font-family="Segoe UI, Arial, sans-serif" font-size="15">Upload, clean, normalize, analyze, train, and visualize.</text>
+
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <rect x="70" y="160" width="145" height="82" rx="14" fill="#EEF2FF" stroke="#6366F1"/>
+    <text x="105" y="194" fill="#312E81" font-size="17" font-weight="700">CSV Upload</text>
+    <text x="96" y="220" fill="#4F46E5" font-size="13">raw sales rows</text>
+
+    <rect x="275" y="160" width="145" height="82" rx="14" fill="#ECFDF5" stroke="#22C55E"/>
+    <text x="307" y="194" fill="#14532D" font-size="17" font-weight="700">Cleaning</text>
+    <text x="300" y="220" fill="#15803D" font-size="13">dates, money, ids</text>
+
+    <rect x="480" y="160" width="145" height="82" rx="14" fill="#FFF7ED" stroke="#F59E0B"/>
+    <text x="510" y="194" fill="#7C2D12" font-size="17" font-weight="700">Database</text>
+    <text x="500" y="220" fill="#C2410C" font-size="13">normalized tables</text>
+
+    <rect x="685" y="160" width="145" height="82" rx="14" fill="#F0FDFA" stroke="#14B8A6"/>
+    <text x="723" y="194" fill="#134E4A" font-size="17" font-weight="700">Analytics</text>
+    <text x="710" y="220" fill="#0F766E" font-size="13">KPIs and trends</text>
+
+    <rect x="890" y="160" width="145" height="82" rx="14" fill="#FDF2F8" stroke="#EC4899"/>
+    <text x="932" y="194" fill="#831843" font-size="17" font-weight="700">ML</text>
+    <text x="910" y="220" fill="#BE185D" font-size="13">forecast + segments</text>
+
+    <rect x="1070" y="160" width="60" height="82" rx="14" fill="#EFF6FF" stroke="#3B82F6"/>
+    <text x="1082" y="195" fill="#1E3A8A" font-size="16" font-weight="700">UI</text>
+    <text x="1085" y="220" fill="#1D4ED8" font-size="12">React</text>
+  </g>
+
+  <path d="M215 201H275" stroke="#94A3B8" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M420 201H480" stroke="#94A3B8" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M625 201H685" stroke="#94A3B8" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M830 201H890" stroke="#94A3B8" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M1035 201H1070" stroke="#94A3B8" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0 0L10 5L0 10Z" fill="#94A3B8"/>
+    </marker>
+  </defs>
+</svg>

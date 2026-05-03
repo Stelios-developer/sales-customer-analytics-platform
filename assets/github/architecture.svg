@@ -1,0 +1,53 @@
+<svg width="1200" height="520" viewBox="0 0 1200 520" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Sales Customer Analytics Platform Architecture</title>
+  <desc id="desc">Architecture diagram showing React frontend, FastAPI backend, ETL services, machine learning services, SQL database, and artifacts.</desc>
+  <rect width="1200" height="520" rx="28" fill="#0B1220"/>
+  <rect x="40" y="40" width="1120" height="440" rx="22" fill="#111827" stroke="#263244"/>
+  <text x="70" y="88" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">Sales &amp; Customer Analytics Intelligence Platform</text>
+  <text x="70" y="118" fill="#94A3B8" font-family="Segoe UI, Arial, sans-serif" font-size="15">Full-stack ETL, analytics, forecasting, and segmentation system</text>
+
+  <rect x="70" y="170" width="230" height="130" rx="16" fill="#172033" stroke="#334155"/>
+  <text x="95" y="210" fill="#E2E8F0" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">React Frontend</text>
+  <text x="95" y="238" fill="#CBD5E1" font-family="Segoe UI, Arial, sans-serif" font-size="14">Dashboard</text>
+  <text x="95" y="260" fill="#CBD5E1" font-family="Segoe UI, Arial, sans-serif" font-size="14">Charts and tables</text>
+  <text x="95" y="282" fill="#CBD5E1" font-family="Segoe UI, Arial, sans-serif" font-size="14">CSV upload UI</text>
+
+  <rect x="390" y="150" width="240" height="170" rx="16" fill="#13251F" stroke="#22C55E"/>
+  <text x="415" y="192" fill="#ECFDF5" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">FastAPI Backend</text>
+  <text x="415" y="222" fill="#BBF7D0" font-family="Segoe UI, Arial, sans-serif" font-size="14">REST endpoints</text>
+  <text x="415" y="244" fill="#BBF7D0" font-family="Segoe UI, Arial, sans-serif" font-size="14">Pydantic schemas</text>
+  <text x="415" y="266" fill="#BBF7D0" font-family="Segoe UI, Arial, sans-serif" font-size="14">Service layer</text>
+  <text x="415" y="288" fill="#BBF7D0" font-family="Segoe UI, Arial, sans-serif" font-size="14">OpenAPI docs</text>
+
+  <rect x="720" y="105" width="210" height="120" rx="16" fill="#251A12" stroke="#F59E0B"/>
+  <text x="745" y="145" fill="#FFF7ED" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">ETL Pipeline</text>
+  <text x="745" y="174" fill="#FED7AA" font-family="Segoe UI, Arial, sans-serif" font-size="14">pandas cleaning</text>
+  <text x="745" y="196" fill="#FED7AA" font-family="Segoe UI, Arial, sans-serif" font-size="14">normalization</text>
+
+  <rect x="720" y="275" width="210" height="120" rx="16" fill="#1E1B4B" stroke="#818CF8"/>
+  <text x="745" y="315" fill="#EEF2FF" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">ML Services</text>
+  <text x="745" y="344" fill="#C7D2FE" font-family="Segoe UI, Arial, sans-serif" font-size="14">XGBoost forecast</text>
+  <text x="745" y="366" fill="#C7D2FE" font-family="Segoe UI, Arial, sans-serif" font-size="14">Gaussian Mixture</text>
+
+  <rect x="990" y="130" width="130" height="115" rx="16" fill="#102A43" stroke="#38BDF8"/>
+  <text x="1015" y="172" fill="#E0F2FE" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="700">Database</text>
+  <text x="1015" y="200" fill="#BAE6FD" font-family="Segoe UI, Arial, sans-serif" font-size="14">PostgreSQL</text>
+  <text x="1015" y="222" fill="#BAE6FD" font-family="Segoe UI, Arial, sans-serif" font-size="14">SQLite local</text>
+
+  <rect x="990" y="300" width="130" height="95" rx="16" fill="#2A1023" stroke="#F472B6"/>
+  <text x="1015" y="340" fill="#FCE7F3" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="700">Artifacts</text>
+  <text x="1015" y="368" fill="#FBCFE8" font-family="Segoe UI, Arial, sans-serif" font-size="14">joblib models</text>
+
+  <path d="M300 235H390" stroke="#64748B" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M630 205H720" stroke="#64748B" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M630 265C675 265 675 335 720 335" stroke="#64748B" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M930 165H990" stroke="#64748B" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M930 335H990" stroke="#64748B" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M990 205C925 245 925 290 990 330" stroke="#475569" stroke-width="2" stroke-dasharray="7 7"/>
+
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0 0L10 5L0 10Z" fill="#64748B"/>
+    </marker>
+  </defs>
+</svg>
