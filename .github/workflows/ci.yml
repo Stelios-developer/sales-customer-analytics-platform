@@ -9,7 +9,7 @@ on:
 jobs:
   backend:
     name: Backend tests
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     defaults:
       run:
         working-directory: backend
@@ -32,7 +32,7 @@ jobs:
 
   frontend:
     name: Frontend build
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     defaults:
       run:
         working-directory: frontend
