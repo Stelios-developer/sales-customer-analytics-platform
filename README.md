@@ -142,7 +142,7 @@
 
 | Layer | Technology |
 |---|---|
-| Backend | Python 3.13, FastAPI, SQLAlchemy 2.x, Alembic, Pydantic v2 |
+| Backend | Python 3.11, FastAPI, SQLAlchemy 2.x, Alembic, Pydantic v2 |
 | Data Engineering | pandas, numpy, custom ETL and dataset adapter scripts |
 | Machine Learning | XGBoost, scikit-learn, joblib |
 | Database | PostgreSQL in Docker, SQLite for local no-Docker development |
@@ -156,6 +156,8 @@
 ## Quick Start
 
 ### Local without Docker
+
+Use Python **3.11** for the backend, matching Docker and CI. The pinned NumPy 1.26.4 dependency does not support Python 3.13.
 
 **1. Backend**
 
